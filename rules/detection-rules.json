@@ -37,6 +37,8 @@
   "exclusion_system": {
     "description": "Centralized exclusion system to prevent false positives on legitimate sites",
     "domain_patterns": [
+      "^https://[^/]*\\.peakeit\\.ca(/.*)?$",
+	    "^https://[^/]*\\.adobe\\.com(/.*)?$",
       "^https://[^/]*\\.cipp\\.app(/.*)?$",
       "^https://(.*\\.)?cyberdrain\\.com(/.*)?$",
       "^https://[^/]*\\.cow\\.tech(/.*)?$",
